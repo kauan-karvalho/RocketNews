@@ -27,12 +27,13 @@ header img {
 }
 
 main {
+  padding-left: 36px ;
   grid-area: main;
   background: #121214;
 }
 
 section {
-  margin: 92px 0 0 36px;
+  margin-top: 92px;
   display: flex;
   flex-direction: column;
   gap: 9px;
@@ -60,6 +61,102 @@ section p {
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
+}
+
+form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+
+  position: relative;
+  width: 798px;
+  height: 84px;
+}
+
+form label {
+  font-family: 'Spartan', sans-serif;
+  color: #A8A8A8;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 138.73%;
+
+  cursor: text;
+}
+
+#input-button {
+  display: flex;
+}
+
+#input-button input {
+  padding: 17px 0 17px 10px;
+
+  outline: none;
+  border: none;
+  border-left: 5px solid #04D361;
+  border-radius: none;
+
+  font-family: 'Work Sans', sans-serif;
+  color: black;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  width: 750px;
+  height: 48px;
+}
+
+#input-button input::placeholder {
+  font-family: 'Work Sans', sans-serif;
+  color: #6A6A6A;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+#input-button input::-webkit-input-placeholder {
+  font-family: 'Work Sans', sans-serif;
+  color: #6A6A6A;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+#input-button input::-moz-placeholder {
+  font-family: 'Work Sans', sans-serif;
+  color: #6A6A6A;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+#input-button input:-moz-placeholder {
+  font-family: 'Work Sans', sans-serif;
+  color: #6A6A6A;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+#input-button input:-ms-input-placeholder {
+  font-family: 'Work Sans', sans-serif;
+  color: #6A6A6A;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+#input-button button {
+  background: #8257E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  border-radius: none;
+  width: 48px;
+
+  cursor: pointer;
 }
 
 aside {
