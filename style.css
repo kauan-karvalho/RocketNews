@@ -170,6 +170,9 @@ main a {
   font-size: 14px;
   line-height: 138.73%;
   text-decoration: none;
+
+  width: 196px;
+  height: 24px;
 }
 
 aside {
